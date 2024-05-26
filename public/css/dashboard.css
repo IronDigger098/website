@@ -3,7 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #857f7f70; /* Ash background */
+    color: #333; /* Default text color */
 }
 
 /* Success and error messages */
@@ -18,12 +19,12 @@ body {
 }
 
 .alert-success {
-    background-color: #28a745;
+    background-color: #28a745; /* Green */
     color: #fff;
 }
 
 .alert-error {
-    background-color: #dc3545;
+    background-color: #dc3545; /* Red for error */
     color: #fff;
 }
 
@@ -35,10 +36,12 @@ body {
 
 .user-section img {
     border-radius: 50%;
+    border: 3px solid #28a745; /* Green border */
 }
 
 .user-section h1 {
     margin-top: 20px;
+    color: #333;
 }
 
 /* Content section */
@@ -50,6 +53,7 @@ body {
 .content-section h2 {
     font-size: 24px;
     margin-bottom: 20px;
+    color: #28a745; /* Green */
 }
 
 .food-section ul {
@@ -71,23 +75,34 @@ body {
     color: #333;
     font-weight: bold;
     font-size: 18px;
+    padding: 5px 10px;
+    border: 2px solid #28a745; /* Green border */
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.food-section ul li a:hover {
+    background-color: #28a745; /* Green background on hover */
+    color: #fff; /* White text on hover */
 }
 
 /* Logout section */
 .logout-section {
+    text-align: center;
     margin-top: 50px;
 }
 
 .logout-section button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #28a745; /* Green */
     border: none;
     border-radius: 4px;
     color: #fff;
     cursor: pointer;
     font-size: 18px;
+    transition: background-color 0.3s;
 }
 
 .logout-section button:hover {
-    background-color: #0056b3;
+    background-color: #218838; /* Darker green on hover */
 }
