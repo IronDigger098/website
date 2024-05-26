@@ -1,7 +1,7 @@
 /* General body styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #676060; /* Light gray background */
     margin: 0;
     padding: 20px;
     display: flex;
@@ -28,6 +28,7 @@ body {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+    color: #333; /* Dark gray for labels */
 }
 
 .form-control {
@@ -44,22 +45,23 @@ body {
     padding: 10px;
     border: none;
     border-radius: 4px;
-    background-color: #007bff;
+    background-color: #28a745; /* Green */
     color: white;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     display: block;
+    transition: background-color 0.3s;
 }
 
 .form-button:hover {
-    background-color: #0056b3;
+    background-color: #218838; /* Darker green on hover */
 }
 
 /* Alert box styling */
 .alert {
     padding: 10px;
-    background-color: #f44336; /* Red for error messages */
+    background-color: #dc3545; /* Red for error messages */
     color: white;
     border-radius: 4px;
     margin-bottom: 20px;
@@ -68,5 +70,5 @@ body {
 
 /* Specific style for success messages */
 .alert-success {
-    background-color: #4CAF50; /* Green for success messages */
+    background-color: #28a745; /* Green for success messages */
 }
