@@ -23,7 +23,7 @@
     </div>
     <div class="main">
         <div class="back">
-            <a href="{{ route('dessert.index') }}">Back to Non-Veg Section</a>
+            <a href="{{ route('dessert.index') }}">Back to Dessert Section</a>
         </div>
         <div class="form-container">
             <h2>Add New Dessert Item</h2>
